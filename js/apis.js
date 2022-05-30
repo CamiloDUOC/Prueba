@@ -25,7 +25,7 @@ function traerDatos() {
 
             res.innerHTML = '';
 
-            for (let item of builds) {
+            for (let item of Builds) {
                 res.innerHTML += `
                 <tr>
                     <td>${item.nombre}</td>
