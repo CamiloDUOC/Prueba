@@ -27,13 +27,11 @@ function traerDatos() {
 
             for (let item of builds) {
                 res.innerHTML += `
-                    <tr>
-                        <td>${item.nombre}</td>
-                        <td>${item.precio}</td>
-                        <td>${item.carac}</td>
-                    </tr>
-
-
+                <tr>
+                    <td>${item.nombre}</td>
+                    <td>${item.precio}</td>
+                    <td>${item.carac}</td>
+                </tr>
                 `
             }
         }
